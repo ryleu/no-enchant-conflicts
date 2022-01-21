@@ -1,12 +1,14 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.fabricmc.example.mixin",
+  "package": "me.ryleu.noec.mixins",
   "compatibilityLevel": "JAVA_16",
   "mixins": [
-  ],
-  "client": [
-    "ExampleMixin"
+    "DamageMixin",
+    "InfinityMixin",
+    "MultishotMixin",
+    "PiercingMixin",
+    "ProtectionMixin"
   ],
   "injectors": {
     "defaultRequire": 1
